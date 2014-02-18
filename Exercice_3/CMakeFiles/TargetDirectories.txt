@@ -1,0 +1,3 @@
+/homes/aa12413/Documents/cgcoursework/CMakeFiles/cgExercise01.dir
+/homes/aa12413/Documents/cgcoursework/CMakeFiles/cgExercise02.dir
+/homes/aa12413/Documents/cgcoursework/CMakeFiles/cgExercise03.dir
