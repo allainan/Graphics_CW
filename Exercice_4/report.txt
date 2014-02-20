@@ -1,0 +1,27 @@
+Academic Year 2013-2014
+Student Submission of Assessed Exercises
+Module 317: Graphics
+Author: Anne-Hermine Allain, aa12413
+
+Exercise 4a Bonus: Your own texture and further considerations
+--------------------------------------------------------------
+
+***Problems of pattern-based texturing***
+- Too repetitive: we can easily detect some geometrical redonduncies within
+the texture due to the fact that a single pattern is used.
+- Mapping on free-form shapes:
+  -Problems at poles
+  -Distorsions
+- Flat texturing: no visual illusion of a 3D texture
+
+***Solutions of pattern-based texturing***
+- To avoid repetitivity, distorsion and poles problems in mapping: 
+  use of isotropic textures (patches that fit to themselves) [NeyretCani99]
+  use hierarchical local mapping [Soler Cani Angelidis 02]
+  use 3D textures: volume of material embedding the object (no mapping to 
+  compute). The texture can be created using Perlin's noise, for example.
+
+- To avoid flat texturing:
+  use bump mapping: perturbation of the normal (using Perlin noise, for example)
+  to give an illusion of relief (but the geometry of faces did not change).
+  use voxels in 3D geometry, mapped on a surface like texture patterns
